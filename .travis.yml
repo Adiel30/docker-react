@@ -5,7 +5,7 @@ services:
 
 
 before_install:
-  - docker build -t adiellevy/docker-react -f dockerfile.dev .
+  - docker build -t adiellevy/docker-react -f Dockerfile.dev .
 
 
 script:
